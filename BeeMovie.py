@@ -10,5 +10,5 @@ while a != -1:
     Keyboard.type(words[a])
     Keyboard.press(Key.enter)
     Keyboard.release(Key.enter)
-    time.sleep(0.2)
+    time.sleep(0.2) #Speed at which words are printed in seconds
     a = a + 1
